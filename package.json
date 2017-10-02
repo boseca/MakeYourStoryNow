@@ -1,0 +1,22 @@
+{
+  "name": "makeyourstorynow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boseca/MakeYourStoryNow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boseca/MakeYourStoryNow/issues"
+  },
+  "homepage": "https://github.com/boseca/MakeYourStoryNow#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
