@@ -7,7 +7,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
 	attributeBindings: ["src", "data-src", "alt"],
 	tagName: "img",
-	src: "data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",
+	src: "data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",	// "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 	alt: "",
 	rootURL: Ember.computed.alias("router.rootURL"),
 	didInsertElement: function() {

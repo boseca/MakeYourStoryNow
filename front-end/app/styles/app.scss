@@ -1,10 +1,15 @@
 
 @import "ember-cli-bootstrap-4/bootstrap";
+/*@import "../bower_components/bootstrap/scss/variables";*/
 
 @import "defaults/_generic";
 @import "defaults/_typography";
 @import "defaults/_variables";
 @import "defaults/_styles";
+@import "defaults/_fixes";
+@import "defaults/_carousel";
+/*@import "templates/_band";*/
+@import "templates/_startup";
 
 
 

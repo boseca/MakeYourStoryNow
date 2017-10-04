@@ -14,10 +14,11 @@ app.get('/api/',function(req,res) {
 	res.send('Working');
 });
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 
-require('./routes')(app);
+// require('./routes')(app);
 
+console.log("Start listen: ", port);
 app.listen(port);
 
 exports = module.exports = app;
